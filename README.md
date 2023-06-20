@@ -68,6 +68,9 @@ Understanding const
 final v. const
 - putting const means it is compile time constant.
 - use final when value that might be returned is not known at the point in time when the code is compiled. Only known when code is executed
+
     -   ex. final output = someFunc()
 -  Use const when value is locked in at the time it is compiled
     - ex. const output = someFunc.redHex
+
+    
