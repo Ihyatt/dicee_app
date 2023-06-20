@@ -27,5 +27,18 @@ Flutter UIs are built with widgets
   
 <img width="802" alt="Screenshot 2023-06-19 at 3 51 16 PM" src="https://github.com/Ihyatt/dicee_app/assets/11432315/8384babf-5d87-43df-9a94-c56d4526e6f7">
 
-shortcut
-- click on widget, type CTRL + SPACE to see possible arguments
+Poistional V. Named Arguements 
+- Make positional arguements optional by wrapping them in `[]`
+```
+void(a, [b]) {
+  print(a + b)
+}
+```
+- set default value
+```
+void add(a, [b = 5]) { 
+  print(a + b);
+}
+add(10);
+add(10, 6); 
+```
