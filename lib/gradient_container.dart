@@ -13,6 +13,8 @@ class GradientContainer extends StatelessWidget {
 
   final List<Color> gradientColors;
 
+  void rollDice() {}
+
   @override //annotation to make it clear that you are overriding build from StatelessWidget
   Widget build(context) {
     return Container(
@@ -23,8 +25,19 @@ class GradientContainer extends StatelessWidget {
           colors: gradientColors,
         ),
       ),
-      child: const Center(
-        child: StyledText('Warm Enough'),
+      child: Center(
+        child: Column(
+          children: [
+            Image.asset(
+              'assets/images/dice-1.png',
+              width: 200,
+            ),
+            TextButton(
+              onPressed: rollDice,
+              child: const StyledText('Roll Me Baby!'),
+            ),
+          ],
+        ),
       ),
     );
   } //build must return widget
