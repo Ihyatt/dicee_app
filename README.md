@@ -65,3 +65,10 @@ Understanding const
 - helps dart optimize runtime of application by storing in device memory 
 - if same widget with same text will be reused rather than a second object being created
 
+final v. const
+- putting const means it is compile time constant.
+- use final when value that might be returned is not known at the point in time when the code is compiled. Only known when code is executed
+  -   ex. final output = someFunc()
+-  Use const when value is locked in at the time it is compiled
+    - ex. const output = someFunc.redHex
+
