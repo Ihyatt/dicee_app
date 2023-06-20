@@ -35,10 +35,20 @@ void(a, [b]) {
 }
 ```
 - set default value
+  - poitional 
 ``` dart
 void add(a, [b = 5]) { 
   print(a + b);
 }
 add(10);
 add(10, 6); 
+```
+ - named
+   
+```dart
+void add({a, b = 5}) { 
+  print(a + b); 
+}  
+ 
+add(b: 10);
 ```
