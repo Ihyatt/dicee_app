@@ -55,7 +55,7 @@ add(b: 10);
 
  - named w/ required
 
-```
+```dart
 void add({required a, required b}) { 
   print(a + b); 
 }  
