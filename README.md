@@ -61,3 +61,9 @@ void add({required a, required b}) {
 }  
 
 ```
+Understanding const
+- helps dart optimize runtime of application by storing in device memory 
+- if same widget with same text will be reused rather than a second object being created
+  
+App Build
+- text aligns to top left
