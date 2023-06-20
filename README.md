@@ -29,13 +29,13 @@ Flutter UIs are built with widgets
 
 Poistional V. Named Arguements 
 - Make positional arguements optional by wrapping them in `[]`
-```
+```dart
 void(a, [b]) {
   print(a + b)
 }
 ```
 - set default value
-```
+``` dart
 void add(a, [b = 5]) { 
   print(a + b);
 }
