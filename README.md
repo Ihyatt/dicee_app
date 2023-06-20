@@ -43,7 +43,7 @@ void add(a, [b = 5]) {
 add(10);
 add(10, 6); 
 ```
- - named
+ - named w/ default
    
 ```dart
 void add({a, b = 5}) { 
@@ -51,4 +51,13 @@ void add({a, b = 5}) {
 }  
  
 add(b: 10);
+```
+
+ - named w/ required
+
+```
+void add({required a, required b}) { 
+  print(a + b); 
+}  
+
 ```
