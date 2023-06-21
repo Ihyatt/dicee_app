@@ -75,6 +75,7 @@ final v. const
 
 
 
-![Simulator Screenshot - iPhone 14 Pro Max - 2023-06-14 at 23 17 18](https://github.com/Ihyatt/dicee/assets/11432315/5f93050c-f0b5-444a-ba58-063fcc5e067a)
+https://github.com/Ihyatt/dicee_app/assets/11432315/de8fb183-7169-40b1-a95a-ddc491857f97
 
-![Simulator Screenshot - iPhone 14 Pro Max - 2023-06-14 at 23 17 14](https://github.com/Ihyatt/dicee/assets/11432315/da001779-83f7-499c-a2ea-86d1e259d6b3)
+
+
