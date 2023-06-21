@@ -73,6 +73,7 @@ final v. const
 -  Use const when value is locked in at the time it is compiled
     - ex. const output = someFunc.redHex
 
+<img width="687" alt="Screenshot 2023-06-20 at 8 14 28 PM" src="https://github.com/Ihyatt/dicee_app/assets/11432315/8dc99bb2-c5a4-4800-95ee-54b53f4a725a">
 
 
 https://github.com/Ihyatt/dicee_app/assets/11432315/de8fb183-7169-40b1-a95a-ddc491857f97
